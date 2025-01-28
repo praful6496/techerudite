@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Poppins", serif;
+}
+
+header {
+  background-color: #56a693 !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.App {
+  width: 100% !important;
+  height: 100vh !important;
+  background-image: url("./assets/img/bg5.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.MuiOutlinedInput-root fieldset {
+  border-color: #56a693 !important;
+}
+
+.MuiOutlinedInput-root :hover fieldset {
+  border-color: #3b8c75 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: #2e725d !important;
+}
